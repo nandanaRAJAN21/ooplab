@@ -1,4 +1,5 @@
 //Program to demonstrate working of a map interface by adding,changing and removing map elements.
+//Program to demonstrate the working of  Map interface by adding,changing and removing elements.
 import java.util.HashMap;
 public class hashmap
 {
