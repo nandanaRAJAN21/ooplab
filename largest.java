@@ -1,17 +1,17 @@
 //Program to find maximum of three numbers using AWT
-import java.util.*;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-class larges extends JFrame implements ActionListener
- {
-  private JLabel l1,l2,l3,l4;
-  private JTextField t1,t2,t3,t4;
-  private JButton b1;
- public larges()
-  {
-setLayout(new FlowLayout());
-  l1=new JLabel("First no.:");
+    import java.util.*;
+    import javax.swing.*;
+    import java.awt.*;
+    import java.awt.event.*;
+    class larges extends JFrame implements ActionListener
+    {
+    private JLabel l1,l2,l3,l4;
+    private JTextField t1,t2,t3,t4;
+    private JButton b1;
+    public larges()
+    {
+    setLayout(new FlowLayout());
+    l1=new JLabel("First no.:");
     l2=new JLabel("Second no.:");
     l3=new JLabel("Third no.:");
     l4=new JLabel("Largest no.:");
